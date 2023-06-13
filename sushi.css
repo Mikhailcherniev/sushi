@@ -12,13 +12,13 @@ top: 15px;
     display: flex;
     transition: 500ms linear;
     background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/War_flag_of_the_Imperial_Japanese_Army_%281868%E2%80%931945%29.svg/220px-War_flag_of_the_Imperial_Japanese_Army_%281868%E2%80%931945%29.svg.png);
-border: 0px solid #000000;
+border: 1px solid #000000;
 border-radius: 71px;
 }
 
 .container{
-    position: fixed;
-    width: 2000px;
+    position: absolute;
+    width: 1380px;
     height:100px;
     background-color:wheat;
 }
@@ -39,7 +39,7 @@ h1 {
 .escrita{
     position: absolute;
     left: 1200px;
-    top: 15px;
+    top: 30px;
 }
 
 .escrita2{
@@ -47,7 +47,7 @@ h1 {
     font-size:  30px;;
     position:absolute;
     left: 1000px;
-    top: 15px;
+    top: 30px;
 }
 
 .escrita3{
@@ -55,14 +55,199 @@ h1 {
     font-size:  30px;;
     position:absolute;
     left: 750px;
-    top: 15px;
+    top: 30px;
 }
 .titulo{
     font-family:"japa";
     font-size:  40px;;
     position:absolute;
     left: 100px;
-    top: -10px;
+    top: 25px;
 
 }
+
+*{margin: 0;
+    padding: 0;
+
+}
+
+.slider {
+    display: block;
+    height: 293px;
+    width: 600px;
+    margin: auto;
+    margin-top: 20px;
+    position: relative;
+}
+
+.slider li {
+    list-style: none;
+    position: absolute;
+}
+
+.slider img {
+    position: absolute;
+    display: flex;
+    top: 150px;
+    left: -30px;
+    height: 500px;
+    width: 600px;
+    vertical-align: top;
+}
+
+.slider input {
+    display: none;
+}
+
+.slider label {
+    background-color: #000;
+    bottom: 20px;
+    cursor: pointer;
+    display: block;
+    height: 10px;
+    position: absolute;
+    width: 10px;
+    z-index: 10;
+}
+
+.slider li:nth-child(1) label {
+    left: 300px;
+    position: absolute;
+    top:123px ;
+}
+
+.slider li:nth-child(2) label {
+    position: absolute;
+    top:123px ;
+    left: 250px;
+}
+
+.slider li:nth-child(3) label {
+    position: absolute;
+    top: 123px;
+    left: 200px;
+}
+
+.slider img {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.slider li input:checked ~ img {
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
+}
+#neymar{
+    position: absolute;
+    font-size:30px;
+    font-family:"japa";
+    top:700px;
+    text-align: center;
+    left: 340px;
+
+}
+.retangulo{
+    position: absolute;
+    width: 1540px;
+    height:100px;
+    background-color:wheat;
+    left: -500px;
+}
+
+.prod{
+    position: absolute;
+    font-family:"japa";
+    font-size: 100px;
+    top: 35px;
+    left: 750px;
+    
+}
+
+.sushi{
+    position: absolute;
+    display: flex;
+    width: 200px;
+    height: 200px;
+    top: 200px;
+    left: -200px;
+
+}
+.sushi2{
+    position: absolute;
+    display: flex;
+    width: 200px;
+    height: 200px;
+    top: 480px;
+    left: -200px;}
+
+    .sushi3{
+        position: absolute;
+        display: flex;
+        width: 200px;
+        height: 200px;
+        top: 200px;
+        left: 200px;}
+
+        .sushi4{
+            position: absolute;
+            display: flex;
+            width: 200px;
+            height: 200px;
+            top: 200px;
+            left: 620px;
+    }
+
+    .sushi5{
+        position: absolute;
+        display: flex;
+        width: 200px;
+        height: 200px;
+        top: 480px;
+        left: 620px;
+}
+
+.sushi6{
+    position: absolute;
+    display: flex;
+    width: 200px;
+    height: 200px;
+    top: 480px;
+    left: 200px;
+}
+
+.retangulo2{
+    position: absolute;
+    width: 1540px;
+    height:100px;
+    background-color:wheat;
+    left: -800px;
+    top: 710px;
+}
+
+.DEL{
+    position: absolute;
+    font-family:"japa";
+    font-size: 100px;
+    top: 500px;
+    left: 500px;}
+
+
+
+                
+        
+            
+
+        
+    
+
+
+
+
+
+
+
+
+
+
 
